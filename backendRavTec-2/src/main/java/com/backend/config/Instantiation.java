@@ -13,7 +13,7 @@ import com.backend.repository.GroupRepository;
 import com.backend.repository.TaskRepository;
 
 @Configuration
-public class Instantiation implements CommandLineRunner {
+public abstract class Instantiation implements CommandLineRunner {
 
 	@Autowired
 	private GroupRepository groupRepository;
